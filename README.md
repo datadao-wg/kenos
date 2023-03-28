@@ -150,9 +150,21 @@ A Service is a long-running process that is receiving and/or serving an API. Itâ
 
 Policies govern the behavior of persons, applications, & services. Two kinds of policies prevail in a Data Operating System. Access policy is a security measure regulating individuals. Data policies describe the rules controlling the integrity, security, quality, and use of data during its lifecycle and state change.
 
-## Pando
+## Depot
 
-Pando provide you with a uniform way to connect with a variety of data sources. Pando abstract away the different protocols and complexities of the source systems to present a common taxonomy and route to address these source systems.
+Depot provide you with a uniform way to connect with a variety of data sources. Depot abstract away the different protocols and complexities of the source systems to present a common taxonomy and route to address these source systems.
+
+## Pando - Data (& Process) Lineage & Provenance
+
+* Data Lineage - reporting of data lifecyle from source to destination
+* Data Provenance - a means of proving data lineage using historical records that provide the means of pipeline re-execution and data validation
+
+## Indexing
+Right now IPFS is great for storing raw binary data, FIL is great for keeping data stored, and FVM smart contracts will bring a way to author and interact with the data. One thing that is missing is the story for how one could work with large amounts of structured data.
+
+The Prolly Tree spec can be used to generate large indexes of structured data which can enable code to work entirely within FVM without needing external indexing services. Any data ingested into Prolly Trees could be stored directly on chain and can be efficiently queried by a smart contract without needing to fully download a dataset.
+
+![](./docs/images/index.png)
 
 ## Cluster
 
