@@ -136,76 +136,76 @@ Aragon Stack reference:
 
 Models are semantic data model constructs devised by business teams to power specific use cases. Models enable the injection of rich business context into the data model and act as an ontological/taxonomical layer above contracts and physical data to expose a common business glossary to the end consumer.
 
-#### Workflow
+## Workflow
 
 Workflow is a manifestation of a Directed Acyclic Graph, which helps you to streamline and automate the process of working with big data. Any data ingestion or processing task in the Data Operating System, irrespective of whether it’s batch or streaming data, are defined and executed through Workflows.
 
-#### Service
+## Service
 
 A Service is a long-running process that is receiving and/or serving an API. It’s for scenarios that need a continuous flow of real-time data, such as handling event processing, real-time stock trades, etc. Service makes it easy to gather, process, and scrutinize streaming data so you can react quickly.
 
-#### Policy
+## Policy
 
 Policies govern the behavior of persons, applications, & services. Two kinds of policies prevail in a Data Operating System. Access policy is a security measure regulating individuals. Data policies describe the rules controlling the integrity, security, quality, and use of data during its lifecycle and state change.
 
-#### Pando
+## Pando
 
 Pando provide you with a uniform way to connect with a variety of data sources. Pando abstract away the different protocols and complexities of the source systems to present a common taxonomy and route to address these source systems.
 
-#### Cluster
+## Cluster
 
 A cluster is a collection of computation resources and configurations on which you run data engineering, data science, and analytics workloads. A Cluster in a Data Operating System is provisioned for exploratory, querying, and ad-hoc analytics workloads.
 
-#### Secret
+## Secret
 
 Secrets allow you to store sensitive information such as passwords, tokens, or keys. Users can gain access by using the name of the ‘Secret’ instead of using the sensitive information directly. The decoupling from other primitives allows for monitoring and control access while minimizing the risk of data leaks.
 
-#### Database
+## Database
 
 Database primitive is for the use cases where output is to be saved in a specific format in a relational database. This primitive can be used in all the scenarios where you need to syndicate structured data. Once you create a Database, you can put a depot & service on top of it to serve the data instantly.
 
-#### Compute
+## Compute
 
 Compute resources can be thought of as the processing power required by any data processing workflow/service or query workload to carry out tasks. Compute is related to common server components, such as CPUs and RAM. So a physical server within a cluster would be considered a compute resource, as it may have multiple CPUs and gigabytes of RAM for processing workloads.
 
-#### Storage
+## Storage
 
 The idea that storage and compute could also be decentralised by specialised protocols like Filecoin and IPFS, so not reliant on or giving any advantage to any one company for example Amazon, Google, or Microsoft, which control 66% of the market. 
 
 It almost means people that invest in expensive hardware to access the KENOS and increase performance can offset some of the cost by renting out capacity and in turn earning crypto-currencies and joining the virtual economy.   It is also believed at a certain scale, and density in a given physical locale, it could increase the proximity of physical hardware to The Cloud at any given time as we unlock the bandwidth and compute of neighbouring connections, and therefore allow greater ‘edge computing’ for KENOS ubiquity.
 
-## Defining principles of a Data Operating System
+# Defining principles of a Data Operating System
 
-#### Data as a Product
+## Data as a Product
 
 The most important objective of a Data Operating System is to consistently deliver Data Products. A Data Product is a unit of data that adds value to the end user. A Data Product must be Discoverable, Addressable, Understandable, Natively accessible, Trustworthy, Interoperable-and-composable, Valuable on its own, and Secure. A Data Product is materialized after raw ingested data is passed through the three-tiered Data Operating System architecture.
 
-#### Artefact first, GUI second
+## Artefact first, GUI second
 
 The Data Operating System Architecture is made for Data Developers. With a suite of loosely coupled and tightly integrable primitives, it enables complete data engineering flexibility in terms of how the OS is operationalized. Being Artefact-first with open standards, it can be used as an architectural layer on top of any existing data infrastructure. GUIs are deployed for business users to directly consume potent data.
 
-#### Developer Experience
+## Developer Experience
 
 The Data Operating System is a programmable data platform that enables state-of-the-art developer experience for data developers. It’s a complete self-service interface for developers where they can declaratively manage resources through APIs, CLIs, and even GUIs if it strikes their fancy. The curated self-service layers made of OS primitives enable a dedicated platform to increase user productivity.
 
-#### Contractual Handshakes
+## Contractual Handshakes
 
 Contracts in data development are analogous to APIs in software development. A Data Operating System’s primitives directly implement Open Data Contracts, which are expectations on data. It is an agreement between producers and consumers to declaratively ensure the fulfillment of the data shape, quality, & security expectations.
 
-#### Outcome First
+## Outcome First
 
 A Data Operating System mercilessly trims down unnecessary sidecars to ensure the results are put first. Every primitive is directly tied to the business purpose through a semantic layer. This establishes a direct positive correlation to revenue since data is selectively managed only for use cases with direct business applications.
 
-#### Zero trust security
+## Zero trust security
 
 A Data Operating System is suspicious of every event within its ecosystem. It does not accept implicit trust and goes several steps beyond by continuously validating security policies at every exchange point through purpose-driven ABAC policies. Security engines are segregated into central and distributed pockets.
 
-#### Data-First Stack
+## Data-First Stack
 The Data-First stack goes exactly by its name and puts data first by abstracting all the nuances of low-level data management, which otherwise suck out most of the data developer’s active hours. A Data Operating System’s data applications consequently optimize resources and ROI.
 
-## Conceptual Architecture of a Data Operating System
+# Conceptual Architecture of a Data Operating System
 
-#### The Three-Tier Logical Infrastructure
+## The Three-Tier Logical Infrastructure
 
 A Data Operating System is conceptually segregated into three logical layers that talk to each other and establish a complete 360-degree data view while ensuring the physical data and logical constructs are safely decoupled. Changes or updates in either layer can selectively be obstructed from corrupting each other. The first layer consumes and maintains physical data, the second layer creates knowledge by detecting active and valuable interrelations within data and metadata, and the third layer empowers a direct tie with business purposes to create insights and wisdom.
 
@@ -221,20 +221,20 @@ The knowledge layer’s graph-like structure is analogous to a biological neural
   
 A semantic layer is capable of accessing and modeling data across heterogeneous sources. It allows you to view and express various business concepts through different lenses. With open data contracts in the mix, business users can express their data expectations and enforce them on data that channels through the semantic data models.
 
-#### The Decentralized Control Plane (Web3) & Distributed Data Plane(Web2)
+## The Decentralized Control Plane (Web3) & Distributed Data Plane(Web2)
 
 A Data Operating System can also be broken down into two conceptual planes: The Control Plane and the Data Plane. Control & Data plane separation decouples the governance and execution of data applications. This gives the flexibility to run the operating system for data in a hybrid environment and deploy a multi-tenant data architecture. Organizations can manage cloud storage and compute instances with a decentralized control plane backed by FVM.
 
 ![kenos-planes](./docs/images/kenos-plances.png)
 
-#### Control Plane
+## Control Plane
 
 The Control plane helps admins govern
 1. Policy-based and purpose-driven access control of various touchpoints in cloud-native environments.
 2. Orchestrate data workloads, compute cluster life-cycle management, and version control of a Data Operating System’s resources.
 3. Metadata of different types of data assets.
 
-#### Data Plane
+## Data Plane
 
 The Data plane helps data developers to deploy, manage and scale data products.
 
@@ -243,20 +243,21 @@ The Data plane helps data developers to deploy, manage and scale data products.
 3. Complex event processing engine for stateful computations over data streams.
 4. Declarative DevOps SDK to publish data apps in production.
 
-## How does a Data Operating System Manifest?
+# How does a Data Operating System Manifest?
 
-## Data Flow in a Data Operating System: Data to Insights
+# Data Flow in a Data Operating System: Data to Insights
 
-## decentralized-machine-learning
-## Decentralized Federated Learning
+# Decentralized machine learning
 
-## Coming Up
+# Decentralized Federated Learning
+
+# Coming Up
 
 Watch this space for more information on the art-of-possible with a Web3 Data Operating System
-* How does a Data Operating System enable design architectures such as Data Mesh and Data Fabric?
-* How does a Data Operating System enable direct business value through constructs such as Customer 360?
-* Could a Data Operating System’s primitives be used selectively?
-* How does a Data Operating System work with existing Data Infrastructures?
-* How does a Data Operating System enable value for organizations that have already instilled multiple point solutions?
-* Are there any existing implementations of a Data Operating System?
-* Is a Data Operating System relevant for on-premise data ecosystems?
+* How does a Web3 Data Operating System enable design architectures such as Data Mesh and Data Fabric?
+* How does a Web3 Data Operating System enable direct business value through constructs such as Customer 360?
+* Could a Web3 Data Operating System’s primitives be used selectively?
+* How does a Web3 Data Operating System work with existing Data Infrastructures?
+* How does a Web3 Data Operating System enable value for organizations that have already instilled multiple point solutions?
+* Are there any existing implementations of a Web3 Data Operating System?
+* Is a Web3 Data Operating System relevant for on-premise data ecosystems?
