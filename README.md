@@ -4,6 +4,8 @@ KENOS is a Web3 Data Operating System for DataDAOs.
 
 # Why an Operating System for Data?
 
+At the point when we founded DataDAO Stack at the beginning of FVM Launch, we had two main insights about Data DAOs. The first was that Data Decentralized Autonomous Organizations (Data DAOs,We could also call it an open data economy) are the most important use case of the blockchain after currency, and the second was that it is impossible to predict what these Data DAOs will look like, and that there will be a fast evolution of them. As a consequence we decided to build KENOS, which is a generic platform for Data DAOs on the Filecoin network.
+
 ## What is an Operating System?
 An Operating System is a program that, on installation, manages all programs that are necessary for the end user to experience the service of outcome-driven programs instead of figuring out ‘how’ to run those programs.
 
