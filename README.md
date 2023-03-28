@@ -172,7 +172,7 @@ Compute resources can be thought of as the processing power required by any data
 
 ## Storage
 
-The idea that storage and compute could also be decentralised by specialised protocols like Filecoin and IPFS, so not reliant on or giving any advantage to any one company for example Amazon, Google, or Microsoft, which control 66% of the market. 
+The idea that storage could also be decentralised by specialised protocols like Filecoin and IPFS, so not reliant on or giving any advantage to any one company for example Amazon, Google, or Microsoft, which control 66% of the market. 
 
 It almost means people that invest in expensive hardware to access the KENOS and increase performance can offset some of the cost by renting out capacity and in turn earning crypto-currencies and joining the virtual economy.   It is also believed at a certain scale, and density in a given physical locale, it could increase the proximity of physical hardware to The Cloud at any given time as we unlock the bandwidth and compute of neighbouring connections, and therefore allow greater ‘edge computing’ for KENOS ubiquity.
 
@@ -252,6 +252,8 @@ The Data plane helps data developers to deploy, manage and scale data products.
 # Decentralized machine learning
 
 # Decentralized Federated Learning
+
+# Reputation DAO aka. Trustless Reputation System
 
 # Coming Up
 
