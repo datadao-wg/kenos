@@ -2,9 +2,9 @@
 KENOS is a Web3 Data Operating System for DataDAOs.
 
 
-## Why an Operating System for Data?
+# Why an Operating System for Data?
 
-#### What is an Operating System?
+## What is an Operating System?
 An Operating System is a program that, on installation, manages all programs that are necessary for the end user to experience the service of outcome-driven programs instead of figuring out ‘how’ to run those programs.
 
 Most of us have experienced Operating Systems on our laptops, phones, and, in fact, on any interface-driven device or program. Some popular examples would be Windows, iOS, Android, and Linux.
@@ -13,7 +13,7 @@ Users are hooked to these systems because they are abstracted from the pains of 
 
 > An Operating System abstracts users from the procedural complexities of applications and declaratively serves the outcomes.
 
-#### The need for a Data Operating System
+## The need for a Data Operating System
 
 This philosophy led to the milestone innovation of the first operating system for data, and needfully so. The requirement for an Operating System design is felt largely due to the overwhelming build-up of cruft within the bounds of data engineering.
 
@@ -22,7 +22,7 @@ Chaos has ensued for non-expert end users as data ecosystems progressively devel
 
 ![MAD Landscape](./docs/images/mad-lanscape.png)
 
-#### Traditional Data Stack → Modern Data Stack → Data-First Operating System
+## Traditional Data Stack → Modern Data Stack → Data-First Operating System
 
 Multiple stacks were devised to manage enterprise data over the decades. The most prominent ones were the traditional data stack (TDS) and the Modern Data Stack (MDS).
 
@@ -33,6 +33,8 @@ Finally, the Data-First Stack (DFS) or the Data Operating System came up with a 
 DFS, or the Data Operating System, brings together a curated set of self-service layers that eliminate redundant tools and processes to enable a reusable, modular, and composable operating platform, elevating user productivity. Now, instead of grinding to integrate hundreds of scattered solutions, users can focus on the core objectives: Data and Data Applications.
 
 The Data Operating System targets existing challenges of TDS and MDS to enable a Data-First stack for both data-savvy and data-naive organizations.
+
+![data-stack](./docs/images/data-stack.png)
 
 The targeted challenges of the prevalent stacks can be clubbed under the following umbrellas.
 
@@ -52,14 +54,17 @@ Data governance has been a hot topic for quite some time, but successful impleme
 
 The prevalent data stacks have a dearth of exemplary developer experience which robs data developers of the ability to declaratively manage resources, environments, and incoming requests to focus 100% on data solutions. Due to these diversions and the lack of a unified platform, it is nearly impossible for Data Engineers to build high-excellence pipelines or recover from mishaps on priority.
 
-## What is a Web3 Data Operating System?
+# What is a Web3 Data Operating System?
 
 ** The Web3 Data Operating System is a Unified Architecture Design that enables the Data-First Stack to abstract complex and distributed subsystems for a consistent outcome-first experience for non-expert end users. **
 
-The Data Operating System is synonymous with a Programmable Data Platform that takes care of low-level resource management tasks to allow data developers the complete freedom to declaratively manage less strategic operations.
+The Web3 Data Operating System is synonymous with a Programmable Data Platform that takes care of low-level resource management tasks to allow data developers the complete freedom to declaratively manage less strategic operations.
+
+![Programmable Data Platform](./docs/images/programmable-data-platform.png)
+
 The Unified Platform Approach enables control over a narrow set of endpoints instead of managing countless integrations. It ruthlessly chops down redundant tools to eliminate integration, maintenance, expertise, and cost overheads that otherwise would build up to millions with no tangible outcome. Ultimately, the Data Operating System shrinks the journey from unreliable data to trustworthy business insights.
 
-#### Mindset Transformation precedes Architecture Transformation.
+## Mindset Transformation precedes Architecture Transformation.
 
 Many data-first organizations, the likes of Uber, Airbnb, and Google, understood the significance of a data-first approach long back and dedicated major projects and years to becoming data-first. Replicating them is not the solution since their data stacks were catered to their specific internal architectures.
 
@@ -67,7 +72,7 @@ Many data-first organizations, the likes of Uber, Airbnb, and Google, understood
 
 Contrary to the widespread mindset that it takes years to build a data-first stack as it used to, with the milestone innovation of the Data Operating System, this assertion is no longer valid. It is not impossible to build a data-first stack and reap observable value within weeks instead of months and years.
 
-#### Back to Basics (Primitives)
+## Back to Basics (Primitives)
 
 Becoming data-first within weeks is possible through the high internal quality of composable Data Operating System architectures: Unification through Modularization.
 
@@ -75,9 +80,61 @@ The Data Operating System, technically defined, is a set of primitives that talk
 
 A Data Operating System’s core primitives can similarly be put together to construct or deconstruct any data application that helps data developers serve and improve actual business value instead of wasting their time and efforts on managing the complex processes behind those outcomes.
 
-## Primitives of a Web3 Data Operating System
+# Primitives of a Web3 Data Operating System
 
 Primitives are atomic and logical units with their own life cycle, which can be composed together and also with other components and stacks to act as the building block of the Data Operating System. They can be treated as artifacts that could be source-controlled and managed using a version control system. Every Primitive can be thought of as an abstraction that allows you to enumerate specific goals and outcomes in a declarative manner instead of the arduous process of defining ‘how to reach those outcomes’.
+
+## Contract
+
+Contracts are expectations on data in the form of shape, business meaning, data quality, or security. They are guidelines or agreements between data producers and consumers to declaratively ensure the fulfillment of expectations. Contracts can be enabled by any primitive in the Data Operating System.
+
+## Governance
+
+As a result of both the necessity for governing the growing landscape of decentralized technologies and networks and the ideals of its community, a class of tools and concepts for decentralized governance has emerged.  The concept of a Distributed Autonomous Organization (DAO) enables individuals and entities to form groups, jointly own assets, make decisions, and participate in the economics of the DAO.  Several mature building blocks for DAOs have emerged, including Aragon and DAOStack.  They include and extend to tools like voting structures, and multi-signature wallets for joint custody of assets.  On the level of protocols, mechanisms for staking and slashing have emerged to incentivise participants in these open networks to behave benevolently.  
+
+The KENOS System can benefit from insights and tools from decentralized governance both for governing KENOS platforms and their components, and enabling economic participation in each, as well as for people to organize themselves within it, such as with gamer guilds or clans.
+
+DAO Stack reference:
+> 
+> Arc is the base layer of the DAO stack. It consists of a set of smart contracts deployed on the Ethereum blockchain that define the basic building blocks and standard components that can be used to implement any DAO.
+> 
+> Arc is a modular, upgradeable platform that allows for a rapid natural selection of governance systems.
+> 
+> ![Dao Stack](./docs/images/dao-stack.jpeg)
+> 
+> Every box in this Figure represents a smart contract. 
+> 
+> The Token contract probably does not require an explanation, being the most popular use-case of the Ethereum network.
+> 
+> The Avatar contract is the face of an organization on the blockchain, e.g. if the organization is to hold ownership of anything, like ownership over a contract or asset, the owner address will be the Avatar.
+> 
+> The Reputation contract stores a DAO's reputation data. In Arc, Reputation represents a user's decision power in a given DAO. It is very similar to a token, with two main differences: one, it is non-transferable, and two, it can be granted or taken away by the DAO.
+>
+> On the right side of the figure we have the schemes. Schemes are simple pieces of logic describing the different actions a DAO can take. One example is a scheme for funding proposals, in which everyone can suggest and vote on proposals, and if a proposal is approved, it is automatically funded.
+> 
+> At the bottom are the global constraints. Global constraints prevent current and future modules from breaking certain overarching rules, e.g. a cap on an organization’s total possible reputation.
+> 
+> The Controller is an access control module that keeps a record of all the registered schemes in a DAO and the permissions for each scheme. It also records all global constraints and enforces them by reverting transactions that violate them.
+
+Aragon Stack reference:
+
+> From a technical perspective, Aragon can be seen as an operating system for human organizations. Therefore, the Aragon stack can be thought of as an operating system, just like macOS or Linux.
+> 
+> A computer operating system manages which processes have access to the computer's resources. They do that with the following components:
+> 
+> * A Kernel, which has drivers that let the software control the hardware
+> * A permission system, to manage which processes can access each resource
+> * A self-upgrade system, for bugs and enhancements
+> 
+> ![](./docs/images/aragon-stack.svg)
+> 
+> You wouldn't want a Tetris app to own full control over your computer's RAM. That would enable tampering with other apps or stealing precious information. Similarly, you wouldn't want a CryptoKitties app to have full control over the funds of your DAO.
+> 
+> The role of the OS, and in this case of the Aragon stack, is to create an environment in which apps can abstract over the underlying resources while ensuring security.
+> 
+## Model
+
+Models are semantic data model constructs devised by business teams to power specific use cases. Models enable the injection of rich business context into the data model and act as an ontological/taxonomical layer above contracts and physical data to expose a common business glossary to the end consumer.
 
 #### Workflow
 
@@ -95,17 +152,9 @@ Policies govern the behavior of persons, applications, & services. Two kinds of 
 
 Pando provide you with a uniform way to connect with a variety of data sources. Pando abstract away the different protocols and complexities of the source systems to present a common taxonomy and route to address these source systems.
 
-#### Model
-
-Models are semantic data model constructs devised by business teams to power specific use cases. Models enable the injection of rich business context into the data model and act as an ontological/taxonomical layer above contracts and physical data to expose a common business glossary to the end consumer.
-
 #### Cluster
 
 A cluster is a collection of computation resources and configurations on which you run data engineering, data science, and analytics workloads. A Cluster in a Data Operating System is provisioned for exploratory, querying, and ad-hoc analytics workloads.
-
-#### Contract
-
-Contracts are expectations on data in the form of shape, business meaning, data quality, or security. They are guidelines or agreements between data producers and consumers to declaratively ensure the fulfillment of expectations. Contracts can be enabled by any primitive in the Data Operating System.
 
 #### Secret
 
@@ -118,6 +167,12 @@ Database primitive is for the use cases where output is to be saved in a specifi
 #### Compute
 
 Compute resources can be thought of as the processing power required by any data processing workflow/service or query workload to carry out tasks. Compute is related to common server components, such as CPUs and RAM. So a physical server within a cluster would be considered a compute resource, as it may have multiple CPUs and gigabytes of RAM for processing workloads.
+
+#### Storage
+
+The idea that storage and compute could also be decentralised by specialised protocols like Filecoin and IPFS, so not reliant on or giving any advantage to any one company for example Amazon, Google, or Microsoft, which control 66% of the market. 
+
+It almost means people that invest in expensive hardware to access the KENOS and increase performance can offset some of the cost by renting out capacity and in turn earning crypto-currencies and joining the virtual economy.   It is also believed at a certain scale, and density in a given physical locale, it could increase the proximity of physical hardware to The Cloud at any given time as we unlock the bandwidth and compute of neighbouring connections, and therefore allow greater ‘edge computing’ for KENOS ubiquity.
 
 ## Defining principles of a Data Operating System
 
@@ -170,6 +225,8 @@ A semantic layer is capable of accessing and modeling data across heterogeneous 
 
 A Data Operating System can also be broken down into two conceptual planes: The Control Plane and the Data Plane. Control & Data plane separation decouples the governance and execution of data applications. This gives the flexibility to run the operating system for data in a hybrid environment and deploy a multi-tenant data architecture. Organizations can manage cloud storage and compute instances with a decentralized control plane backed by FVM.
 
+![kenos-planes](./docs/images/kenos-plances.png)
+
 #### Control Plane
 
 The Control plane helps admins govern
@@ -189,6 +246,9 @@ The Data plane helps data developers to deploy, manage and scale data products.
 ## How does a Data Operating System Manifest?
 
 ## Data Flow in a Data Operating System: Data to Insights
+
+## decentralized-machine-learning
+## Decentralized Federated Learning
 
 ## Coming Up
 
