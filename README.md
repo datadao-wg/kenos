@@ -239,7 +239,7 @@ A semantic layer is capable of accessing and modeling data across heterogeneous 
 
 A Data Operating System can also be broken down into two conceptual planes: The Control Plane and the Data Plane. Control & Data plane separation decouples the governance and execution of data applications. This gives the flexibility to run the operating system for data in a hybrid environment and deploy a multi-tenant data architecture. Organizations can manage cloud storage and compute instances with a decentralized control plane backed by FVM.
 
-![kenos-planes](./docs/images/kenos-plances.png)
+![kenos-planes](./docs/images/kenos-planes.png)
 
 ## Control Plane
 
